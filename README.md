@@ -5,6 +5,6 @@ Complex Word Identification task Details of task at: https://sites.google.com/vi
 
 Datasets, scorers and other files can be found at the link above. NLTK dictionaries cmudict and wordnet were used sklearn was used for ML algorithms
 
-cwi.py is my improved system of complex word identification
+system.py is my improved system of complex word identification
 
 The model can be run by running execute.py
