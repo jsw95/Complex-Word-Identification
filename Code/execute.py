@@ -24,7 +24,7 @@ def execute_system(language, modelName, featureSet):
 
     score = report_score(gold_labels, predictions, detailed=True)
 
-    return score
+    
 
     
 
@@ -32,7 +32,9 @@ if __name__ == '__main__':
 
     all_feats = ['baseline', 'cap_feat', 'freq_feat', 'uni_feat', 'bi_feat', 'tri_feat',
                 'syl_feat', 'sense_feat', 'pos_feat']
-    all_models = ['LogisticRegression', 'NeuralNetwork', 'RandomForest']
+   
+    models = ['LogisticRegression', 'NeuralNetwork', 'RandomForest']
+   
     languages = ['english', 'spanish']
 
 
